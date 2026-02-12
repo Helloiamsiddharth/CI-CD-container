@@ -1,5 +1,4 @@
 # 03_04_ci_cd_for_container_images
-This lesson demonstrates how to set up a CI/CD workflow for container images.
 
 Specifically, this demo implements a delivery workflow that:
 - Reuses a workflow to run integration tests
@@ -7,7 +6,7 @@ Specifically, this demo implements a delivery workflow that:
 - Builds the image
 - Publishes the image to GitHub Packages
 
-## Using the Exercise Files
+## Using the Files
 1. Create a new repo and upload the files for this lesson.
 1. Rename the file [python-ci-workflow.yml](./python-ci-workflow.yml) so that its located in the `.github/workflows` directory.
 
@@ -45,4 +44,5 @@ Specifically, this demo implements a delivery workflow that:
 1. Once the workflow completes, select the *Code* tab.
 1. Refresh the page as needed until the package is listed under *Packages*.
 1. Select the package and review the details on the package page.
+
 
